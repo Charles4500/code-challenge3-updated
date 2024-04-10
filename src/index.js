@@ -1,5 +1,5 @@
 // Your code here
-// Base URL(which is a global variable) for API
+// Base URL(which is a global variable) for API and can be used in all functions
 const baseUrl = 'http://localhost:3000';
 
 document.addEventListener('DOMContentLoaded', function () {
