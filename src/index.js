@@ -2,7 +2,9 @@
 // Base URL(which is a global variable) for API and can be used in all functions
 const baseUrl = 'http://localhost:3000';
 
+
 document.addEventListener('DOMContentLoaded', function () {
+    
  // This function fetches all movies from the API
   async function fetchMovies() {
       const response = await fetch(`${baseUrl}/films`);
@@ -94,5 +96,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Finally, call the renderMoviesMenu function to render the movies menu
   renderMoviesMenu();
-  fetchMovieById(1).then(renderMovieDetails);
+  fetchMovieById(11).then(renderMovieDetails);
 });
