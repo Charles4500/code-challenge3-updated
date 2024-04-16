@@ -1,6 +1,7 @@
 // Your code here
 // Base URL(which is a global variable) for API and can be used in all functions
-const baseUrl = 'http://localhost:3000';
+//Activate this link to live
+const baseUrl = 'https://my-json-server.typicode.com/Charles4500/code-challenge3-updated';
 
 
 document.addEventListener('DOMContentLoaded', function () {
